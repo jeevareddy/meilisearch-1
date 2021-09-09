@@ -4,9 +4,9 @@ application:
   organization: STUDENT9901
   storage:
   - name: meili-data
-    type: ssd
+    type: fast_ssd
     size: 10GB
-    mount_point: /data.ms
+    mount_point: /data
 routers:
 - name: meili-router
   routes:
