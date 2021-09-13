@@ -6,7 +6,7 @@ application:
   - name: meili-data
     type: fast_ssd
     size: 10GB
-    mount_point: /data
+    mount_point: /data.ms
 routers:
 - name: meili-router
   routes:
