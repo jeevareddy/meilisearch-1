@@ -1,0 +1,8 @@
+build:
+  docker:
+    web: Dockerfile
+  config:
+    MEILI_ENV: production
+    MEILI_MASTER_KEY: 143AbX
+run:
+  web: bundle exec puma -C config/puma.rb
